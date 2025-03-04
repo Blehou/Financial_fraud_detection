@@ -45,6 +45,5 @@ disp.plot()
 plt.title("Confusion Matrix")
 plt.show()
 
-# Important metric in classification
 print("Classification Report:")
 print(classification_report(y_test, label_pred, digits=4))
